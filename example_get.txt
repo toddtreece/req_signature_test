@@ -1,0 +1,9 @@
+GET /input/abc123?wind=10&temp=98 HTTP/1.1
+x-phant-fields: wind,temp
+x-phant-date: 2014-10-17T18:56:54Z
+x-phant-credential: abc123/phant_signature_v1
+x-phant-algorithm: phant-hmac-sha256
+x-phant-signature: 703533a5a6abb449f7654ca540b66b50e2d4d10763146a0fb435bc227997eccd
+Host: localhost:8080
+Connection: close
+
